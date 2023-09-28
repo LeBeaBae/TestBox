@@ -26,11 +26,86 @@ var app = new function() {
 	
 	this.animearray = [
 	    {
-		name: "1_test",
-		color: "000000",
+		name: "1_Kikaz",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "2_deux",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "3_kosh",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "4_shpok",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "5_tom",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "6_buzz",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "7_scratch",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "8_trill",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "9_boombox",
+		color: "828282",
 		uniqsnd: !1
-	    }
-	], this.bonusarray = [ /*No bonuses?*/ ];
+	}, {
+		name: "10_uh",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "11_nugu",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "12_guit",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "13_tromp",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "14_pouin",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "15_tung",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "16_aoun",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "17_puoha",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "18_get",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "19_tellme",
+		color: "828282",
+		uniqsnd: !0
+	}, {
+		name: "20_make",
+		color: "828282",
+		uniqsnd: !1
+	}], this.bonusarray = [ /*No bonuses?*/ ];
 	
 	for (var n = 0, o = this.animearray.length; n < o; n++) {
 		var a = this.animearray[n].name;
