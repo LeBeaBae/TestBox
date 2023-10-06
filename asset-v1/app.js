@@ -80,11 +80,9 @@ var app = new function() {
         name: "20mind",
         color: "9573fe",
         uniqsnd: !1
-    }], this.bonusarray = [{
-        name: "The Last Day",
-        src: "v1-b1-thelastday-hb.mp4",
-        code: "1,2,6,11,13",
-        sound: "bonus-thelastday",
-        aspire: "aspire-thelastday"
-    }]
+    }], this.bonusarray = [];
+    for (var n = 0, o = this.animearray.length; n < o; n++) {
+		var a = this.animearray[n].name;
+		this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json"
+	}
 };
