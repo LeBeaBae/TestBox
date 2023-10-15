@@ -1,6 +1,6 @@
 /* Finally, some good fucking json */
 var app = new function() {
-    this.name = "Pushing Life", this.version = "Pushing Life V1", this.date = "2023", this.folder = "asset-v1/", this.looptime = 8000, this.bpm = 100, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 2, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 96, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepolotshirt = "polo-sprite-tshirt.png", this.spritepicto = "game-picto.png", this.colBck = "#0f1521", this.col0 = "#828da0", this.col1 = "#596988", this.col2 = "#384863", this.col3 = "#202a3c", this.col4 = "#131a2a", this.animearray = [{
+    this.name = "Pushing Life", this.version = "A", this.date = "2022", this.folder = "asset-v1/", this.looptime = 8000, this.bpm = 120, this.totalframe = 576, this.nbpolo = 7, this.nbloopbonus = 3, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 68, this.recminloop = 4, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepolotshirt = "polo-sprite-tshirt.png", this.spritepicto = "game-picto.png", this.colBck = "#121212", this.col0 = "#1b1851", this.col1 = "#1b1851", this.col2 = "#12103d", this.col3 = "#0d0b30", this.col4 = "#232323", this.animearray = [{
         name: "beat",
         color: "000000",
         uniqsnd: !0
