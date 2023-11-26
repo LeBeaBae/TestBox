@@ -8,6 +8,10 @@ var app = new function() {
         name: "3_snap",
         color: "b816ad",
         uniqsnd: !0
+    }, {
+        name: "8_aeugh",
+        color: "3a5af0",
+        uniqsnd: !0
     }], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
 		var a = this.animearray[n].name;
