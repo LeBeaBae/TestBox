@@ -9,6 +9,10 @@ var app = new function() {
         color: "b816ad",
         uniqsnd: !0
     }, {
+        name: "6_bass",
+        color: "b816ad",
+        uniqsnd: !0
+    }, {
         name: "8_aeugh",
         color: "3a5af0",
         uniqsnd: !0
