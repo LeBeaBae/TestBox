@@ -17,6 +17,10 @@ var app = new function() {
         color: "b816ad",
         uniqsnd: !0
     }, {
+        name: "5_clap",
+        color: "b816ad",
+        uniqsnd: !0
+    }, {
         name: "6_bass",
         color: "3a5af0",
         uniqsnd: !0
